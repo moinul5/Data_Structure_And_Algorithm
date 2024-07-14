@@ -7,7 +7,8 @@ struct node
     struct node *link;
 };
 
-struct node* addToEnd(struct node *ptr , int data)
+// time complexity for this function is O(1)
+struct node* addToEnd(struct node *ptr , int data) // here struct node* because temp is the pointer to a node
 {
     struct node *temp = malloc(sizeof(struct node));
     temp -> data = data;
