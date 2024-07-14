@@ -13,7 +13,7 @@ int  main()
         }
     }
 
-    if(K==0){
+    if(k==0){
         printf("not found");
     }
 }
