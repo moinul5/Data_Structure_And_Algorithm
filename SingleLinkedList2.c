@@ -9,9 +9,9 @@ struct node{
 int main()
 {
     // Allocate memory for nodes
-    struct node  *head = malloc(sizeof(struct node));
-    struct node *second = malloc(sizeof(struct node));
-    struct node *third = malloc(sizeof(struct node));
+    struct node  *head = (struct node *)malloc(sizeof(struct node));
+    struct node *second = (struct node *)malloc(sizeof(struct node));
+    struct node *third = (struct node *)malloc(sizeof(struct node));
 
     //First node or head nodes
     head -> data = 28;
