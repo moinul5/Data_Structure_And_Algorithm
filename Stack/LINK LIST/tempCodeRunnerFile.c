@@ -1,0 +1,9 @@
+ // head  =  malloc(sizeof(struct node));
+    // second  =  malloc(sizeof(struct node));
+    // third  =  malloc(sizeof(struct node));
+    // head->data= 50;
+    // second->data= 100;
+    // third->data= 150;
+    // head->link = second;
+    // second->link = third;
+    // third->link = NULL;
